@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #222;
+}
+.main-container {
+  background-color: #fdf2e9;
+  padding: 3rem 0;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  background-color: rgb(242, 210, 169);
+  padding: 4rem;
+  border-radius: 32px;
+}
+.main-header {
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 700;
+  margin-bottom: 10rem;
+}
+.subheading {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+.weather-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.weather-attribute {
+  font-size: 2rem;
+}
+.temp {
+  display: block;
+  text-align: center;
+  font-size: 7.2rem;
+  margin-bottom: 4rem;
+}
+.btn {
+  cursor: pointer;
+  background-color: rgb(242, 210, 169);
+  border-radius: 100%;
+  padding: 0.75rem;
+  outline: none;
+  border: none;
+  transition: all 0.6s;
+}
+.btn:hover {
+  background-color: rgb(255, 185, 92);
+}
+
+.search {
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 4rem;
+}
+.svg {
+  width: 120px;
+  height: 120px;
+}
+.input {
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 50px;
+  outline: none;
+  width: 30rem;
+}
+.initial-margin {
+  margin-top: 26rem;
+}

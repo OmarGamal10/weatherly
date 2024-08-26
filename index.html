@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherly</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="./controller.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="main-container">
+        <div class="container initial-margin">
+          <form action="/search" method="POST" class="search">
+            <input
+              type="text"
+              name="q"
+              placeholder="Enter a City"
+              class="input"
+              style="text-align: center"
+            />
+            <button type="submit" class="btn">
+              <img
+                src="./search-alt-2-svgrepo-com.svg"
+                style="overflow: hidden"
+              />
+            </button>
+          </form>
+          <div class="text-container">
+            <!--
+              <div style="text-align: center; margin-bottom: 6rem">
+                <img src="./sunny-svgrepo-com.svg" class="svg" />
+              </div>
+              <span class="temp">7&deg;c</span>
+              <h1 class="main-header">Cairo</h1>
+              <div class="weather-info-box">
+                <div class="weather-info">
+                  <h2 class="subheading">48%</h2>
+                  <span class="weather-attribute">Humidity</span>
+                </div>
+                <div class="weather-info">
+                  <h2 class="subheading">10.2 km/h</h2>
+                  <span class="weather-attribute">Wind Speed</span>
+                </div>
+              </div>
+              -->
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
