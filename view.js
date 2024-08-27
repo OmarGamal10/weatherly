@@ -26,7 +26,7 @@ function generateMarkup(data) {
                 <span class="weather-attribute">Humidity</span>
               </div>
               <div class="weather-info">
-                <h2 class="subheading">${data.humidity} km/h</h2>
+                <h2 class="subheading">${data.wind} km/h</h2>
                 <span class="weather-attribute">Wind Speed</span>
               </div>
             </div>`;
