@@ -1,6 +1,6 @@
 # Weatherly 🌦️
 
-**Weatherly** is a web application that provides real-time weather information. Built using plain HTML, CSS, and JavaScript, the app fetches data from a weather API to display current weather conditions, forecasts, and other related information for any location.
+**Weatherly** is a mini weather web application that provides real-time weather information. Built using plain HTML, CSS, and JavaScript, the app fetches data from a weather API to display current weather conditions, forecasts, and other related information for any location.
 
 ## Features
 
