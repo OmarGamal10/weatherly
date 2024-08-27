@@ -1,3 +1,4 @@
+import { API_KEY } from "./config";
 export const state = {
   query: "",
   temp: "",
@@ -20,7 +21,7 @@ async function getJson(url) {
 export async function loadWeather(query) {
   try {
     const data = await getJson(
-      `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=ad21eaf28b0bf9bc2fb0199a47632ba1`
+      `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`
     );
     setState(data);
   } catch (err) {
